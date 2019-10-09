@@ -6,7 +6,7 @@
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <nav>
+        <nav id="nav">
            <div class="left-nav">
                 <a href="#">About</a>
                 <a href="#">Store</a>
@@ -14,44 +14,52 @@
            <div class="right-nav">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <a href="#">
-                <img src="images/download.png">
+            <a href="#" class="grid">
+                <img src="images/download.png" alt="google-apps">
             </a>
             <a href="#">
-                <img src="images/person-profile-icon-15.jpg">
+                <button>Sign in</button>
             </a>
            </div>                
         </nav>
+         
+        <main id="main">
+            <div class="content">
+                <a href="#" class="logo">
+                    <img src="https://www.google.com/logos/doodles/2019/labor-day-2019-united-states-5919291772764160.2-l.png" 
+                     width="500px" height="200px">
+                </a>
                 
-        <main>
-            <a href="#">
-                <img src="images/google-logo-fun.png">
-            </a>
-            <form action="google-search.html" method="POST">
-                <section class="search-bar">
-                        <input type="text" name="search">
-                        <img src="images/mag-glass.png">
-                        <img src="images/google-mic.png">
-                </section>
-                <section class="search-button">
-                        <input type="button" value="Google Search">
-                        <input type="button" value="I'm Feeling Lucky">
-                </section>
-            </form>
-            <p>This is Faux Google! Our links go nowhere :)</p>
+                <form action="google-search.html" method="POST">
+                    <div class="search-bar">
+                            <input type="text" name="search">
+                            <img src="images/google-mic.png" width="15px" height="15px">
+                    </div>
+                    <div class="search-buttons">
+                            <input type="button" value="Google Search">
+                            <input type="button" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+                
+                <p>
+                    <span>This is Faux Google! Our links go </span>
+                    <a href="#">nowhere</a>
+                    <span> :)</span>
+                </p>
+            </div>        
         </main>
-
+     <!--  
         <footer>
             <div class="left-footer">
                 <a href="#">Advertising</a>
                 <a href="#">Business</a>
-                <a href="#">How Search Works</a>
             </div>
             <div class="right-footer">
                 <a href="#">Privacy</a>
                 <a href="#">Terms</a>
                 <a href="#">Settings</a>
             </div>
-        </footer>        
+        </footer>   
+    -->     
     </body>
 </html>
