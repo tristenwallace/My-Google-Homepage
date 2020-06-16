@@ -4,6 +4,7 @@
         <title>Faux Google</title>
         <meta charset="utf-8">
         <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <nav id="nav">
@@ -12,14 +13,14 @@
                 <a href="#">Store</a>
            </div>               
            <div class="right-nav">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#" class="grid">
-                <img src="images/download.png" alt="google-apps">
-            </a>
-            <a href="#">
-                <button>Sign in</button>
-            </a>
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#" class="grid">
+                    <img src="images/download.png" alt="google-apps">
+                </a>
+                <a href="#">
+                    <button>Sign in</button>
+                </a>
            </div>                
         </nav>
          
@@ -31,35 +32,30 @@
                 </a>
                 
                 <form action="google-search.html" method="POST">
-                    <div class="search-bar">
-                            <input type="text" name="search">
-                            <img src="images/google-mic.png" width="15px" height="15px">
+                    <div class="search">
+                        <i class="material-icons" id="srch-icon" aria-hidden="true">search</i>    
+                        <input type="text" name="search">
+                        <i class="material-icons" id="mic-icon">mic</i>
                     </div>
-                    <div class="search-buttons">
-                            <input type="button" value="Google Search">
-                            <input type="button" value="I'm Feeling Lucky">
+                    <div class="btngrp">
+                        <button type="button" class="btn">Google Search</button>
+                        <button type="button" class="btn">I'm Feeling Lucky</button>
                     </div>
                 </form>
-                
-                <p>
-                    <span>This is Faux Google! Our links go </span>
-                    <a href="#">nowhere</a>
-                    <span> :)</span>
-                </p>
-            </div>        
+            </div>       
         </main>
-     <!--  
-        <footer>
-            <div class="left-footer">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-            </div>
-            <div class="right-footer">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
-        </footer>   
-    -->     
+        <div id="navbottom">
+            <footer id="footer">
+                <div class="left-footer">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                </div>
+                <div class="right-footer">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>
+                </div>
+            </footer>
+        </div>           
     </body>
 </html>
