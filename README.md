@@ -1,4 +1,4 @@
-The Odin Project Curriculum
-Project #1: Google Homepage
+CS50’s Web Programming with Python and JavaScript
+Project #1: Search
 
-This is a simple clone of the Google Home page using foundational HTML and CSS techniques.
+Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
