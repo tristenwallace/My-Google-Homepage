@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cs50 Search</title>
+    <meta charset="utf-8">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="nav">
+        <div class="left-nav">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div class="right-nav">
+            <a href="index.html">Google Search</a>
+            <a href="#" class="grid">
+                <img src="images/download.png" alt="google-apps">
+            </a>
+            <a href="#">
+                <button>Sign in</button>
+            </a>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main id="main">
+        <div class="content">
+            <a href="#" class="logo">
+                <img src="https://www.google.com/logos/doodles/2019/labor-day-2019-united-states-5919291772764160.2-l.png"
+                    width="500px" height="200px">
+            </a>
+
+            <form action="https://google.com/search">
+                <div class="search">
+                    <i class="material-icons" id="srch-icon" aria-hidden="true">search</i>
+                    <input type="text" name="q">
+                    <i class="material-icons" id="mic-icon">mic</i>
+                </div>
+                <div class="btngrp">
+                    <input type="submit" class="btn" value="Google Search">
+                </div>
+                <input type="hidden" name="sclient" value="img">
+                <input type="hidden" name="tbm" value="isch">
+            </form>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <div id="navbottom">
+        <footer id="footer">
+            <div class="left-footer">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+            </div>
+            <div class="right-footer">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
