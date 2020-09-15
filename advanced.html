@@ -16,8 +16,7 @@
             <a href="#">Store</a>
         </div>
         <div class="right-nav">
-            <a href="#">Image Search</a>
-            <a href="#">Advanced Search</a>
+            <a href="index.html">Google Search</a>
             <a href="#" class="grid">
                 <img src="images/download.png" alt="google-apps">
             </a>
@@ -29,21 +28,30 @@
 
     <!-- MAIN -->
     <main id="main">
-        <div class="content">
-            <a href="#" class="logo">
-                <img src="https://www.google.com/logos/doodles/2019/labor-day-2019-united-states-5919291772764160.2-l.png"
-                    width="500px" height="200px">
-            </a>
-
+        <div class="header">
+            <h1>Advanced Search</h1>
+        </div>
+        <div class="adv-search-container">
+            <h2>Find pages with...</h2>
             <form action="https://google.com/search">
-                <div class="search">
-                    <i class="material-icons" id="srch-icon" aria-hidden="true">search</i>
+                <div class="adv-search search-all">
+                    <p>all these words:</p>
                     <input type="text" name="q">
-                    <i class="material-icons" id="mic-icon">mic</i>
+                </div>
+                <div class="adv-search search-exact">
+                    <p>this exact word or phrase:</p>
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="adv-search search-any">
+                    <p>any of these words:</p>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="adv-search search-none">
+                    <p>none of these words:</p>
+                    <input type="text" name="as_eq">
                 </div>
                 <div class="btngrp">
                     <input type="submit" class="btn" value="Google Search"></input>
-                    <input type="submit" class="btn" value="I'm Feeling Lucky"></input>
                 </div>
             </form>
         </div>
