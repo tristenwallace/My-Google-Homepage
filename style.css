@@ -19,6 +19,16 @@ a:hover {
 	text-decoration: underline;
 }
 
+.header {
+	padding: 15px 30px;
+	border-bottom: 1px solid lightgray;
+	background-color: #f9f9f9
+}
+
+.header h1 {
+	color: #D93025;
+}
+
 .logo{
 	display: flex;
 	margin-top:15vh;
@@ -79,6 +89,18 @@ input[type=text]:focus, input[type=text]:hover{
 .btn:hover{
 	border: 1px solid #dfdcdc;
 	background: linear-gradient(to bottom right,#fcfcfc, #f3f1f1)
+}
+
+.adv-search-container .btngrp {
+	text-align: left;
+}
+
+.adv-search {
+	margin: 20px 0;
+}
+
+.adv-search p {
+	margin: 5px 0;
 }
 
 #nav{
@@ -155,3 +177,8 @@ input[type=text]:focus, input[type=text]:hover{
 			font-size: 12px;
 		}
 	}	
+
+.adv-search-container {
+	max-width: 80%;
+	padding: 20px 10%;
+}
